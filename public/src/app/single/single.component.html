@@ -1,0 +1,20 @@
+<div *ngIf="truck">
+
+  <h1>Details about {{truck.name}}</h1>
+
+  <p>Pet type: {{truck.type}}</p>
+
+  <p>Description: {{truck.description}}</p>
+
+  
+  <p>Skills: {{truck.skill1}},  
+     {{truck.skill2}}, 
+     {{truck.skill3}}</p>
+
+
+  <p>Likes: {{truck.likes}}</p>
+  
+  <button (click) = "newLike(truck._id)">Like this pet</button>
+  <button (click) = "delete(truck._id)">Adopt this pet</button>
+  
+</div>

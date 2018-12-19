@@ -1,0 +1,29 @@
+* {
+
+    margin: 0 auto;
+
+}
+
+div {
+
+    width: 970px;
+
+}
+
+#header {
+
+    display: flex;
+
+    flex-flow: row nowrap;
+
+    background-color: rgb(125, 141, 236);
+
+    justify-content: center;
+
+}
+
+#container {
+
+    background-color: silver;
+
+}
